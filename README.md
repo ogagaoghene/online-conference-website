@@ -1,70 +1,63 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Capstone-Project - Online Conference Website
 
-# Project Name
+# Description the project.
 
-> Description the project.
-
+This project is example of Website for offering services to our clients
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- html/css/js.
+- following linters standards.
+- following github flows standards.
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
+**My project works on mobile and desktop using @Media queries .**
+****************************************************
 To get a local copy up and running follow these simple example steps.
+follow>>>>>>>>>
 
-### Prerequisites
 
 ### Setup
 
-### Install
+to use the project please follow :
+
+ >Open GitHub and go to my GitHub repository name: Capstone-Project-I .to clone.
+
+ >Click “Code” and copy the given URL.
+
+ >Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+
+ >Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+
+ >Syntax:
+
+  $ git clone {repository URL}
 
 ### Usage
+this website can be used for commercial reasons or marketing.
 
-### Run tests
-
-### Deployment
-
-
+### LIVE DEMO
+CHECK THIS [LINK](https://ogagaoghene.github.io/online-conference-website/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Esi Ogagaogene**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Said-laasri](https://github.com/ogagaoghene)
+- Twitter: [@saidlaasr](https://twitter.com/@esi_ogagaoghene)
 
-👤 **Author2**
+## 🤝 credit
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
+[@Cindy Shin](https://www.behance.net/adagio07) Thanks for this amazing Design.
+- Microverse
 - Inspiration
 - etc
 
