@@ -50,14 +50,13 @@ CHECK THIS [LINK](https://ogagaoghene.github.io/online-conference-website/)
 
 ## 🤝 credit
 
-[@Cindy Shin](https://www.behance.net/adagio07) Thanks for this amazing Design.
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+[@Cindy Shin](https://www.behance.net/adagio07) Thanks for this amazing Design.
 - Microverse
 - Inspiration
 - etc
