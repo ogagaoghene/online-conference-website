@@ -60,11 +60,6 @@ header span {
   margin-left: 10%;
 }
 
-header nav {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 header nav a {
   color: black;
   font-weight: bold;
@@ -74,6 +69,25 @@ header nav a {
 
 .header-bg {
   background-color: white;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: start;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover {
+  color: #482ff7;
 }
 
 .hamburger {
@@ -140,7 +154,7 @@ header nav a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-gap: 0.5rem;
+  grid-gap: 2rem;
   align-items: center;
   background-color: #272a31;
 }
@@ -194,6 +208,7 @@ header nav a {
   font-size: 12px;
   font-weight: 600;
   padding-bottom: 35px;
+  gap: 2.5rem;
 }
 
 .program-section-row2 p {
@@ -478,46 +493,64 @@ header nav a {
 /* ---------------------------------------------------
 # About Page
  */
-.about-container {
+.about-main-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  grid-gap: 4rem;
+  align-items: center;
+  background: url(../img/bg_5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-main-section-row {
+  display: flex;
+  flex-direction: row;
   width: 80%;
-  height: 50vh;
-  margin: 30px auto;
+  margin: 0 auto;
+  padding: 18px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 40px;
+}
+
+.about-main-section-row div {
+  margin: 0 auto;
   text-align: center;
 }
 
-.about-container h1 {
-  text-transform: uppercase;
-  padding: 8px;
-  font-size: 24px;
+.about-main-section-row h1 {
   color: #ec5242;
-  font-weight: bold;
-  line-height: 30px;
+  line-height: 45px;
 }
 
-.about-container p {
-  border: 1px solid #eee;
-  background-color: #fff;
-  padding: 40px;
-  margin-top: 30px;
-  line-height: 20px;
-  color: #272a31;
-  text-shadow: 1px 1px #d3d3d3;
-}
-
-.about-container h2 {
-  margin-top: 15px;
-  font-size: 16px;
-  color: #272a31;
-  line-height: 25px;
-  padding: 40px;
-}
-
-.about-container hr {
+.about-main-section-row hr {
   width: 10%;
   margin: 10px auto;
   height: 1px;
   background-color: #ec5242;
   border: none;
+}
+
+.about-main-section-row p {
+  border: 1px solid #eee;
+  height: 30vh;
+  width: 600px;
+  margin: 20px auto;
+  font-size: 13px;
+  padding: 15px;
+  text-align: justify;
+  background: white;
+  line-height: 20px;
+}
+
+.about-main-section-row h2 {
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .summit-section {
@@ -529,52 +562,59 @@ header nav a {
   background: url(../img/futuristic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #000;
 }
 
 .summit-section-row {
   display: flex;
+  flex-direction: row;
   width: 80%;
   margin: 0 auto;
   padding: 18px;
-  height: 500px;
-}
-
-.summit-container {
-  width: 80%;
-  height: 40vh;
-  margin: 5px auto;
-  text-align: center;
-}
-
-.summit-container h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  color: #272a31;
-  line-height: 25px;
-  padding: 25px;
-}
-
-.summit-container p {
-  font-size: 14px;
-  color: #272a31;
-  line-height: 30px;
-  text-align: center;
-}
-
-.summit-container div {
-  background-color: #fff;
-  width: 500px;
-  height: 35vh;
-  margin: 20px auto;
-  border: 1px solid #eee;
-  border-radius: 2px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 40px;
 }
 
 .about-footer-row img {
   width: 200px;
   height: auto;
   background-color: #272a31;
+}
+
+.summit-section-row div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.summit-section-row h2 {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.summit-section-row hr {
+  width: 10%;
+  margin: 10px auto;
+  height: 1px;
+  background-color: #ec5242;
+  border: none;
+}
+
+.summit-section-row p {
+  height: auto;
+  width: 500px;
+  margin: 10px auto;
+  font-size: 13px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.summit-section-row div img {
+  width: 300px;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .summit-container div img {
@@ -767,8 +807,22 @@ header nav a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    width: 100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #eee;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
     transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 0.2rem 0;
   }
 
   .hamburger {
@@ -924,5 +978,50 @@ header nav a {
     height: auto;
     justify-content: center;
     align-items: center;
+  }
+
+  .about-main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+  }
+
+  .about-main-section-row p {
+    width: auto;
+    height: auto;
+  }
+
+  .about-main-section-row h2 {
+    width: auto;
+    height: auto;
+  }
+
+  .summit-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+  }
+
+  .past-summit-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .past-summit-section div {
+    flex-flow: column wrap;
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .past-summit-section,
+  .past-summit-section-row2 div {
+    margin-bottom: 30px;
+    padding-right: 40px;
   }
 }
