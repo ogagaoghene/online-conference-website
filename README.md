@@ -45,8 +45,8 @@ CHECK THIS [LINK](https://ogagaoghene.github.io/online-conference-website/)
 
 👤 **Esi Ogagaogene**
 
-- GitHub: [@Said-laasri](https://github.com/ogagaoghene)
-- Twitter: [@saidlaasr](https://twitter.com/@esi_ogagaoghene)
+- GitHub: [@ogagaoghene](https://github.com/ogagaoghene)
+- Twitter: [@esi_ogaga](https://twitter.com/@esi_ogagaoghene)
 
 ## 🤝 credit
 
