@@ -1,8 +1,6 @@
 # Capstone-Project - Online Conference Website
 
-# Description the project.
-
-This project is example of Website for offering services to our clients
+Online conference website holds cinformation about different speakers from different countries and continents and the location of the conference.
 
 ## Tech Stack
 
