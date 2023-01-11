@@ -4,39 +4,21 @@
 
 This project is example of Website for offering services to our clients
 
-## Built With
+## Tech Stack
 
-- html/css/js.
-- following linters standards.
-- following github flows standards.
+**Client:** HTML5, CSS, JavaScript
 
+## Run Locally
+Clone the project
 
-## Getting Started
+```bash
+  git clone https://github.com/ogagaoghene/online-conference-website.git
+```
+Go to the project directory
 
-**My project works on mobile and desktop using @Media queries .**
-****************************************************
-To get a local copy up and running follow these simple example steps.
-follow>>>>>>>>>
-
-
-### Setup
-
-to use the project please follow :
-
- >Open GitHub and go to my GitHub repository name: Capstone-Project-I .to clone.
-
- >Click “Code” and copy the given URL.
-
- >Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
-
- >Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
-
- >Syntax:
-
-  $ git clone {repository URL}
-
-### Usage
-this website can be used for commercial reasons or marketing.
+```bash
+  cd online-conference-website
+```
 
 ### LIVE DEMO
 CHECK THIS [LINK](https://ogagaoghene.github.io/online-conference-website/)
@@ -47,9 +29,6 @@ CHECK THIS [LINK](https://ogagaoghene.github.io/online-conference-website/)
 
 - GitHub: [@ogagaoghene](https://github.com/ogagaoghene)
 - Twitter: [@esi_ogaga](https://twitter.com/@esi_ogagaoghene)
-
-## 🤝 credit
-
 
 ## Show your support
 
